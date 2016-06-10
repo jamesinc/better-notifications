@@ -2,11 +2,12 @@
 
 $PluginInfo['BetterNotifications'] = array(
 	'Description' => 'Implements vBulletin/PHPBB-style e-mail notifications for users who bookmark discussions. They will only receive one notification e-mail until they re-visit the discussion.',
-	'Version' => '2.0.2',
+	'Version' => '2.0.3',
 	'Author' => 'James Ducker',
 	'RequiredApplications' => array('Vanilla' => '2.1'),
 	'AuthorEmail' => 'james.ducker@gmail.com',
 	'AuthorUrl' => 'http://github.com/jamesinc',
+	'MobileFriendly' => true,
 	'License' => 'GPL-3.0'
 );
 
