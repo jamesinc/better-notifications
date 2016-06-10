@@ -2,7 +2,7 @@
 
 $PluginInfo['BetterNotifications'] = array(
 	'Description' => 'Implements vBulletin/PHPBB-style e-mail notifications for users who bookmark discussions. They will only receive one notification e-mail until they re-visit the discussion.',
-	'Version' => '2.0.1',
+	'Version' => '2.0.2',
 	'Author' => 'James Ducker',
 	'RequiredApplications' => array('Vanilla' => '2.1'),
 	'AuthorEmail' => 'james.ducker@gmail.com',
@@ -111,7 +111,7 @@ class BetterNotifications extends Gdn_Plugin {
 
 		Gdn::SQL()
 			->Update('UserDiscussion')
-			->Set('Notified', $Notified)
+			->Set('Notified', $FlagValue)
 			->Where('DiscussionID', $DiscussionID)
 			->Where('UserID', $UserID)
 			->Put();
