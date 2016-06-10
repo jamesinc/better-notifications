@@ -6,7 +6,8 @@ $PluginInfo['BetterNotifications'] = array(
 	'Author' => 'James Ducker',
 	'RequiredApplications' => array('Vanilla' => '2.1'),
 	'AuthorEmail' => 'james.ducker@gmail.com',
-	'AuthorUrl' => 'http://github.com/jamesinc'
+	'AuthorUrl' => 'http://github.com/jamesinc',
+	'License' => 'GPL-3.0'
 );
 
 class BetterNotifications extends Gdn_Plugin {
