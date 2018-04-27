@@ -11,7 +11,7 @@ $PluginInfo['BetterNotifications'] = array(
 	'License' => 'GPL-3.0'
 );
 
-class BetterNotifications extends Gdn_Plugin {
+class BetterNotificationsPlugin extends Gdn_Plugin {
 
 	public function Setup() {
 
