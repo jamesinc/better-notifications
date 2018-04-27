@@ -120,5 +120,3 @@ class BetterNotificationsPlugin extends Gdn_Plugin {
 	}
 
 }
-
-?>
